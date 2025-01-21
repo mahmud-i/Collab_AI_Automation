@@ -2,7 +2,7 @@ pipeline {
     agent any // Runs on any available agent
 
     tools {
-        maven 'Maven' // Matches the name configured in Global Tool Configuration
+        maven 'Maven_m' // Matches the name configured in Global Tool Configuration
     }
 
     stages {
