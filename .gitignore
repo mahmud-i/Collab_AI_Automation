@@ -6,6 +6,9 @@ target/
 .project
 .settings/
 
+# vscode project files
+.vscode/
+
 # IDEA project files
 .idea/
 *.iml
