@@ -1,0 +1,42 @@
+# Maven build directory
+target/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# IDEA project files
+.idea/
+*.iml
+*.iws
+
+# log files
+*.log
+/logs/
+
+# package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.nar
+
+# Temporary files
+*.swp
+*.bak
+*.temp
+
+# system files
+.DS_Store
+Thumbs.db
+
+# Eclipse
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
