@@ -22,8 +22,9 @@ pipeline {
 
     post {
         always {
+            sh 'ls -la target/surefire-reports' // Debugging step
             // Archive test results and artifacts
-            junit '**/target/surefire-reports/*.xml'
+            junit 'target/surefire-reports/*.xml'
             archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
         }
     }
